@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Aluno "+alunos.getNome()+" =====> " + "Matricula =>"+alunos.getMatricula()+"\n");
 
         Manutencao manutencao = new Manutencao("Rafael", "555555555555", "Rua das rosas", 35, "Furadeira, Martelo, Serrote");
-        System.out.println("Manuntenção "+manutencao.getNome() +" =====> "+ "Equipamentos => " +manutencao.getEquipamentos()+"\n");
+        System.out.println("Manutenção "+manutencao.getNome() +" =====> "+ "Equipamentos => " +manutencao.getEquipamentos()+"\n");
 
 
         Funcionario funcionarios = new Funcionario("João", "6565654444", "Rua das violetas", 59, "Professor", 2500.0, "Bradesco");
